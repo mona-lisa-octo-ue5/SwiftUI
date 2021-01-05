@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var scrums = DailyScrum.data
     var body: some View {
         MeetingView()
     }
