@@ -19,6 +19,7 @@
 		64F0C3CB25A45A37008BE9EA /* ScrumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3CA25A45A37008BE9EA /* ScrumData.swift */; };
 		64F0C3CE25A45D5D008BE9EA /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3CD25A45D5D008BE9EA /* SpeechRecognizer.swift */; };
 		64F0C3D125A46077008BE9EA /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3D025A46077008BE9EA /* MeetingView.swift */; };
+		64F0C3D425A4683D008BE9EA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3D325A4683D008BE9EA /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		64F0C3CA25A45A37008BE9EA /* ScrumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumData.swift; sourceTree = "<group>"; };
 		64F0C3CD25A45D5D008BE9EA /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 		64F0C3D025A46077008BE9EA /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		64F0C3D325A4683D008BE9EA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				6458AF1E25A445120063BFE0 /* SwiftUIProApp.swift */,
 				6458AF2025A445120063BFE0 /* ContentView.swift */,
 				64F0C3D025A46077008BE9EA /* MeetingView.swift */,
+				64F0C3D325A4683D008BE9EA /* CardView.swift */,
 				6458AF2225A445140063BFE0 /* Assets.xcassets */,
 				6458AF2725A445140063BFE0 /* Info.plist */,
 				6458AF2425A445140063BFE0 /* Preview Content */,
@@ -179,6 +182,7 @@
 				64F0C3CE25A45D5D008BE9EA /* SpeechRecognizer.swift in Sources */,
 				6458AF1F25A445120063BFE0 /* SwiftUIProApp.swift in Sources */,
 				64F0C3CB25A45A37008BE9EA /* ScrumData.swift in Sources */,
+				64F0C3D425A4683D008BE9EA /* CardView.swift in Sources */,
 				64F0C3C225A4505F008BE9EA /* History.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
