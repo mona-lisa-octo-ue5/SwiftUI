@@ -24,6 +24,7 @@
 		64F0C3DA25A47428008BE9EA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3D925A47428008BE9EA /* DetailView.swift */; };
 		64F0C3DD25A555AB008BE9EA /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3DC25A555AB008BE9EA /* EditView.swift */; };
 		64F0C3E125A566C9008BE9EA /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3E025A566C9008BE9EA /* MeetingHeaderView.swift */; };
+		64F0C3E425A588D7008BE9EA /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3E325A588D7008BE9EA /* MeetingFooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		64F0C3D925A47428008BE9EA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		64F0C3DC25A555AB008BE9EA /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		64F0C3E025A566C9008BE9EA /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
+		64F0C3E325A588D7008BE9EA /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				64F0C3D925A47428008BE9EA /* DetailView.swift */,
 				64F0C3DC25A555AB008BE9EA /* EditView.swift */,
 				64F0C3E025A566C9008BE9EA /* MeetingHeaderView.swift */,
+				64F0C3E325A588D7008BE9EA /* MeetingFooterView.swift */,
 				6458AF2225A445140063BFE0 /* Assets.xcassets */,
 				6458AF2725A445140063BFE0 /* Info.plist */,
 				6458AF2425A445140063BFE0 /* Preview Content */,
@@ -190,6 +193,7 @@
 				64F0C3D125A46077008BE9EA /* MeetingView.swift in Sources */,
 				64F0C3C825A45803008BE9EA /* AVPlayer+Ding.swift in Sources */,
 				64F0C3DD25A555AB008BE9EA /* EditView.swift in Sources */,
+				64F0C3E425A588D7008BE9EA /* MeetingFooterView.swift in Sources */,
 				6458AF2125A445120063BFE0 /* ContentView.swift in Sources */,
 				64F0C3BB25A44BEA008BE9EA /* Color+Codable.swift in Sources */,
 				64F0C3CE25A45D5D008BE9EA /* SpeechRecognizer.swift in Sources */,

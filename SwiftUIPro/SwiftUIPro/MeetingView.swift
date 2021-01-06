@@ -6,24 +6,29 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct MeetingView: View {
     @Binding var scrum:DailyScrum
+    @StateObject var scrumTimer = ScrumTimer()
     var body: some View {
         ZStack{
+            RoundedRectangle(cornerRadius: 16.0)
+                .fill(scrum.color)
             VStack{
                 Circle()
                     .strokeBorder(lineWidth: 24, antialiased: true)
-                HStack{
-                    Text("Speaker 1 of 3")
-                    Button(action: {}) {
-                        Image(systemName: "forward.fill")
-                    }
-                    .accessibilityLabel(Text("Next speaker"))
-                }
+                
             }
             .padding()
             .foregroundColor(scrum.color.accessibleFontColor)
+            .onAppear{
+                scrumTimer.reset(lengthInMinutes: scrum.lengthInMinutes, attendees: scrum.attendees)
+                scrumTimer.startScrum()
+            }
+            .onDisappear{
+                scrumTimer.stopScrum()
+            }
         }
     }
 }
