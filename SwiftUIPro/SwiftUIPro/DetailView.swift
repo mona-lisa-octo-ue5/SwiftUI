@@ -24,9 +24,22 @@ struct DetailView: View {
                 }
                 HStack{
                     Label("Color",systemImage:"paintpalette")
+                    Spacer()
+                    Image(systemName: "checkmark.circle.fill")
+                        .foregroundColor(scrum.color)
+                }
+                .accessibilityElement(children: .ignore)
+            }
+            
+            Section(header: Text("Attendees")) {
+                ForEach(scrum.attendees,id:\.self){ attendee in
+                    Label(attendee,systemImage:"person")
+                        .accessibilityLabel(Text("person"))
+                        .accessibilityValue(Text(attendee))
                 }
             }
         }
+        .listStyle(InsetGroupedListStyle())
     }
 }
 
