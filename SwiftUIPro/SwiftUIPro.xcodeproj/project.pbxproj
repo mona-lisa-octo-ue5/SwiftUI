@@ -21,6 +21,7 @@
 		64F0C3D125A46077008BE9EA /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3D025A46077008BE9EA /* MeetingView.swift */; };
 		64F0C3D425A4683D008BE9EA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3D325A4683D008BE9EA /* CardView.swift */; };
 		64F0C3D725A46F91008BE9EA /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3D625A46F91008BE9EA /* ScrumsView.swift */; };
+		64F0C3DA25A47428008BE9EA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3D925A47428008BE9EA /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		64F0C3D025A46077008BE9EA /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		64F0C3D325A4683D008BE9EA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		64F0C3D625A46F91008BE9EA /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		64F0C3D925A47428008BE9EA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				64F0C3D025A46077008BE9EA /* MeetingView.swift */,
 				64F0C3D325A4683D008BE9EA /* CardView.swift */,
 				64F0C3D625A46F91008BE9EA /* ScrumsView.swift */,
+				64F0C3D925A47428008BE9EA /* DetailView.swift */,
 				6458AF2225A445140063BFE0 /* Assets.xcassets */,
 				6458AF2725A445140063BFE0 /* Info.plist */,
 				6458AF2425A445140063BFE0 /* Preview Content */,
@@ -183,6 +186,7 @@
 				6458AF2125A445120063BFE0 /* ContentView.swift in Sources */,
 				64F0C3BB25A44BEA008BE9EA /* Color+Codable.swift in Sources */,
 				64F0C3CE25A45D5D008BE9EA /* SpeechRecognizer.swift in Sources */,
+				64F0C3DA25A47428008BE9EA /* DetailView.swift in Sources */,
 				64F0C3D725A46F91008BE9EA /* ScrumsView.swift in Sources */,
 				6458AF1F25A445120063BFE0 /* SwiftUIProApp.swift in Sources */,
 				64F0C3CB25A45A37008BE9EA /* ScrumData.swift in Sources */,
