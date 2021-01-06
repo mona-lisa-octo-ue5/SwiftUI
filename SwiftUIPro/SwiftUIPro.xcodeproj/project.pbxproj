@@ -34,6 +34,16 @@
 		64F0C40125A5BC0A008BE9EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C40025A5BC0A008BE9EA /* Assets.xcassets */; };
 		64F0C40425A5BC0A008BE9EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C40325A5BC0A008BE9EA /* Preview Assets.xcassets */; };
 		64F0C40C25A5BC51008BE9EA /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C40B25A5BC51008BE9EA /* ColorView.swift */; };
+		64F0C41725A5C1A8008BE9EA /* ChargeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C41625A5C1A8008BE9EA /* ChargeApp.swift */; };
+		64F0C41925A5C1A8008BE9EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C41825A5C1A8008BE9EA /* ContentView.swift */; };
+		64F0C41B25A5C1AA008BE9EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C41A25A5C1AA008BE9EA /* Assets.xcassets */; };
+		64F0C41E25A5C1AA008BE9EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C41D25A5C1AA008BE9EA /* Preview Assets.xcassets */; };
+		64F0C42725A5C1C3008BE9EA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C42625A5C1C3008BE9EA /* HomeView.swift */; };
+		64F0C43325A5C753008BE9EA /* TouchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C43225A5C753008BE9EA /* TouchApp.swift */; };
+		64F0C43525A5C753008BE9EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C43425A5C753008BE9EA /* ContentView.swift */; };
+		64F0C43725A5C754008BE9EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C43625A5C754008BE9EA /* Assets.xcassets */; };
+		64F0C43A25A5C754008BE9EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C43925A5C754008BE9EA /* Preview Assets.xcassets */; };
+		64F0C44425A5C768008BE9EA /* TouchSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C44325A5C768008BE9EA /* TouchSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +78,20 @@
 		64F0C40325A5BC0A008BE9EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64F0C40525A5BC0A008BE9EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64F0C40B25A5BC51008BE9EA /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
+		64F0C41425A5C1A8008BE9EA /* Charge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Charge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F0C41625A5C1A8008BE9EA /* ChargeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeApp.swift; sourceTree = "<group>"; };
+		64F0C41825A5C1A8008BE9EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64F0C41A25A5C1AA008BE9EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64F0C41D25A5C1AA008BE9EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64F0C41F25A5C1AA008BE9EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F0C42625A5C1C3008BE9EA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		64F0C43025A5C753008BE9EA /* Touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F0C43225A5C753008BE9EA /* TouchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchApp.swift; sourceTree = "<group>"; };
+		64F0C43425A5C753008BE9EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64F0C43625A5C754008BE9EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64F0C43925A5C754008BE9EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64F0C43B25A5C754008BE9EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F0C44325A5C768008BE9EA /* TouchSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +109,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		64F0C41125A5C1A8008BE9EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F0C42D25A5C753008BE9EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -93,6 +131,8 @@
 			children = (
 				6458AF1D25A445120063BFE0 /* SwiftUIPro */,
 				64F0C3FB25A5BC07008BE9EA /* Grid */,
+				64F0C41525A5C1A8008BE9EA /* Charge */,
+				64F0C43125A5C753008BE9EA /* Touch */,
 				6458AF1C25A445120063BFE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,6 +142,8 @@
 			children = (
 				6458AF1B25A445120063BFE0 /* SwiftUIPro.app */,
 				64F0C3FA25A5BC07008BE9EA /* Grid.app */,
+				64F0C41425A5C1A8008BE9EA /* Charge.app */,
+				64F0C43025A5C753008BE9EA /* Touch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -181,6 +223,48 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		64F0C41525A5C1A8008BE9EA /* Charge */ = {
+			isa = PBXGroup;
+			children = (
+				64F0C41625A5C1A8008BE9EA /* ChargeApp.swift */,
+				64F0C41825A5C1A8008BE9EA /* ContentView.swift */,
+				64F0C42625A5C1C3008BE9EA /* HomeView.swift */,
+				64F0C41A25A5C1AA008BE9EA /* Assets.xcassets */,
+				64F0C41F25A5C1AA008BE9EA /* Info.plist */,
+				64F0C41C25A5C1AA008BE9EA /* Preview Content */,
+			);
+			path = Charge;
+			sourceTree = "<group>";
+		};
+		64F0C41C25A5C1AA008BE9EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64F0C41D25A5C1AA008BE9EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64F0C43125A5C753008BE9EA /* Touch */ = {
+			isa = PBXGroup;
+			children = (
+				64F0C43225A5C753008BE9EA /* TouchApp.swift */,
+				64F0C43425A5C753008BE9EA /* ContentView.swift */,
+				64F0C44325A5C768008BE9EA /* TouchSlider.swift */,
+				64F0C43625A5C754008BE9EA /* Assets.xcassets */,
+				64F0C43B25A5C754008BE9EA /* Info.plist */,
+				64F0C43825A5C754008BE9EA /* Preview Content */,
+			);
+			path = Touch;
+			sourceTree = "<group>";
+		};
+		64F0C43825A5C754008BE9EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64F0C43925A5C754008BE9EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -218,6 +302,40 @@
 			productReference = 64F0C3FA25A5BC07008BE9EA /* Grid.app */;
 			productType = "com.apple.product-type.application";
 		};
+		64F0C41325A5C1A8008BE9EA /* Charge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F0C42025A5C1AA008BE9EA /* Build configuration list for PBXNativeTarget "Charge" */;
+			buildPhases = (
+				64F0C41025A5C1A8008BE9EA /* Sources */,
+				64F0C41125A5C1A8008BE9EA /* Frameworks */,
+				64F0C41225A5C1A8008BE9EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Charge;
+			productName = Charge;
+			productReference = 64F0C41425A5C1A8008BE9EA /* Charge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64F0C42F25A5C753008BE9EA /* Touch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F0C43C25A5C754008BE9EA /* Build configuration list for PBXNativeTarget "Touch" */;
+			buildPhases = (
+				64F0C42C25A5C753008BE9EA /* Sources */,
+				64F0C42D25A5C753008BE9EA /* Frameworks */,
+				64F0C42E25A5C753008BE9EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Touch;
+			productName = Touch;
+			productReference = 64F0C43025A5C753008BE9EA /* Touch.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -231,6 +349,12 @@
 						CreatedOnToolsVersion = 12.0;
 					};
 					64F0C3F925A5BC07008BE9EA = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					64F0C41325A5C1A8008BE9EA = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					64F0C42F25A5C753008BE9EA = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
@@ -250,6 +374,8 @@
 			targets = (
 				6458AF1A25A445120063BFE0 /* SwiftUIPro */,
 				64F0C3F925A5BC07008BE9EA /* Grid */,
+				64F0C41325A5C1A8008BE9EA /* Charge */,
+				64F0C42F25A5C753008BE9EA /* Touch */,
 			);
 		};
 /* End PBXProject section */
@@ -271,6 +397,24 @@
 			files = (
 				64F0C40425A5BC0A008BE9EA /* Preview Assets.xcassets in Resources */,
 				64F0C40125A5BC0A008BE9EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F0C41225A5C1A8008BE9EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F0C41E25A5C1AA008BE9EA /* Preview Assets.xcassets in Resources */,
+				64F0C41B25A5C1AA008BE9EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F0C42E25A5C753008BE9EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F0C43A25A5C754008BE9EA /* Preview Assets.xcassets in Resources */,
+				64F0C43725A5C754008BE9EA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +454,26 @@
 				64F0C40C25A5BC51008BE9EA /* ColorView.swift in Sources */,
 				64F0C3FF25A5BC07008BE9EA /* ContentView.swift in Sources */,
 				64F0C3FD25A5BC07008BE9EA /* GridApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F0C41025A5C1A8008BE9EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F0C42725A5C1C3008BE9EA /* HomeView.swift in Sources */,
+				64F0C41925A5C1A8008BE9EA /* ContentView.swift in Sources */,
+				64F0C41725A5C1A8008BE9EA /* ChargeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F0C42C25A5C753008BE9EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F0C43525A5C753008BE9EA /* ContentView.swift in Sources */,
+				64F0C44425A5C768008BE9EA /* TouchSlider.swift in Sources */,
+				64F0C43325A5C753008BE9EA /* TouchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +684,94 @@
 			};
 			name = Release;
 		};
+		64F0C42125A5C1AA008BE9EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Charge/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Charge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Charge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64F0C42225A5C1AA008BE9EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Charge/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Charge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Charge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64F0C43D25A5C754008BE9EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Touch/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Touch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Touch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64F0C43E25A5C754008BE9EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Touch/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Touch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Touch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -546,6 +798,24 @@
 			buildConfigurations = (
 				64F0C40725A5BC0A008BE9EA /* Debug */,
 				64F0C40825A5BC0A008BE9EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F0C42025A5C1AA008BE9EA /* Build configuration list for PBXNativeTarget "Charge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F0C42125A5C1AA008BE9EA /* Debug */,
+				64F0C42225A5C1AA008BE9EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F0C43C25A5C754008BE9EA /* Build configuration list for PBXNativeTarget "Touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F0C43D25A5C754008BE9EA /* Debug */,
+				64F0C43E25A5C754008BE9EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
