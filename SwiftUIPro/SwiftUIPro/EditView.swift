@@ -24,7 +24,6 @@ struct EditView: View {
                 }
                 ColorPicker("Color",selection:$scrumData.color)
             }
-            
             Section(header: Text("Attendees")) {
                 ForEach(scrumData.attendees,id:\.self){ attendee in
                     Text(attendee)
