@@ -9,6 +9,7 @@ import SwiftUI
 
 struct DetailView: View {
     let scrum:DailyScrum
+    @State private var isPresented=false
     var body: some View {
         List{
             Section(header: Text("Meeting Info")) {
@@ -43,6 +44,9 @@ struct DetailView: View {
         }
         .listStyle(InsetGroupedListStyle())
         .navigationTitle(scrum.title)
+        .fullScreenCover(isPresented: $isPresented){
+            EditView()
+        }
     }
 }
 
