@@ -48,13 +48,15 @@ struct DetailView: View {
         })
         .navigationTitle(scrum.title)
         .fullScreenCover(isPresented: $isPresented){
-            EditView()
-                .navigationTitle(scrum.title)
-                .navigationBarItems(leading: Button("Cancel"){
-                    isPresented=false
-                }, trailing: Button("Done"){
-                    isPresented=false
-                })
+            NavigationView{
+                EditView()
+                    .navigationTitle(scrum.title)
+                    .navigationBarItems(leading: Button("Cancel"){
+                        isPresented=false
+                    }, trailing: Button("Done"){
+                        isPresented=false
+                    })
+            }
         }
     }
 }
