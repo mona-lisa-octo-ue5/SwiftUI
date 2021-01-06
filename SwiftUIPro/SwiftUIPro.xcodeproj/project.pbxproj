@@ -27,6 +27,7 @@
 		64F0C3E425A588D7008BE9EA /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3E325A588D7008BE9EA /* MeetingFooterView.swift */; };
 		64F0C3E725A590DA008BE9EA /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3E625A590DA008BE9EA /* ScrumProgressViewStyle.swift */; };
 		64F0C3EB25A59F1F008BE9EA /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3EA25A59F1F008BE9EA /* MeetingTimerView.swift */; };
+		64F0C3EE25A5ABF9008BE9EA /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3ED25A5ABF9008BE9EA /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		64F0C3E325A588D7008BE9EA /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		64F0C3E625A590DA008BE9EA /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		64F0C3EA25A59F1F008BE9EA /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		64F0C3ED25A5ABF9008BE9EA /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				64F0C3E325A588D7008BE9EA /* MeetingFooterView.swift */,
 				64F0C3E625A590DA008BE9EA /* ScrumProgressViewStyle.swift */,
 				64F0C3EA25A59F1F008BE9EA /* MeetingTimerView.swift */,
+				64F0C3ED25A5ABF9008BE9EA /* HistoryView.swift */,
 				6458AF2225A445140063BFE0 /* Assets.xcassets */,
 				6458AF2725A445140063BFE0 /* Info.plist */,
 				6458AF2425A445140063BFE0 /* Preview Content */,
@@ -206,6 +209,7 @@
 				64F0C3BB25A44BEA008BE9EA /* Color+Codable.swift in Sources */,
 				64F0C3CE25A45D5D008BE9EA /* SpeechRecognizer.swift in Sources */,
 				64F0C3DA25A47428008BE9EA /* DetailView.swift in Sources */,
+				64F0C3EE25A5ABF9008BE9EA /* HistoryView.swift in Sources */,
 				64F0C3E125A566C9008BE9EA /* MeetingHeaderView.swift in Sources */,
 				64F0C3D725A46F91008BE9EA /* ScrumsView.swift in Sources */,
 				6458AF1F25A445120063BFE0 /* SwiftUIProApp.swift in Sources */,

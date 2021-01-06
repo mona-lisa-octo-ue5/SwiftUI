@@ -9,7 +9,6 @@ import SwiftUI
 
 struct MeetingFooterView: View {
     @Binding var speakers:[ScrumTimer.Speaker]
-    //¥¨ˆøøπ“‘«æ…¬˚∆˙©ƒ∂ßßåΩ≈Ç√ı√√√√√√ı˜√ı˜Â≤≥÷∞¢¡™£¢∞§¶•ªº–≠≠≠≠≠–≠≠––ºª
     var skipAction:()->Void
     private var speakerNumber:Int?{
         guard let index = speakers.firstIndex(where: {!$0.isCompleted}) else { return nil }
