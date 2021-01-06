@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct TouchSlider: View {
-    @Binding var parcentage:Float
+    @Binding var percentage:Float
     var body: some View {
         GeometryReader{ geometry in
             ZStack(alignment: .leading){
@@ -16,14 +16,14 @@ struct TouchSlider: View {
                     .foregroundColor(.gray)
                 Rectangle()
                     .foregroundColor(.accentColor)
-                    .frame(width: geometry.size.width*CGFloat(self), height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .frame(width: geometry.size.width*CGFloat(self.percentage/100))
             }
+            .cornerRadius(15)
+            .gesture(DragGesture(minimumDistance: 0).onChanged({value in
+                self.percentage=min(max(0, Float(value.location.x/geometry.size.width*100)), 100)
+            }))
         }
     }
 }
 
-struct TouchSlider_Previews: PreviewProvider {
-    static var previews: some View {
-        TouchSlider()
-    }
-}
+
