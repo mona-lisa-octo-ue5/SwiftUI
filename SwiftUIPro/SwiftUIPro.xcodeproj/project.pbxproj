@@ -28,6 +28,12 @@
 		64F0C3E725A590DA008BE9EA /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3E625A590DA008BE9EA /* ScrumProgressViewStyle.swift */; };
 		64F0C3EB25A59F1F008BE9EA /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3EA25A59F1F008BE9EA /* MeetingTimerView.swift */; };
 		64F0C3EE25A5ABF9008BE9EA /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3ED25A5ABF9008BE9EA /* HistoryView.swift */; };
+		64F0C3F425A5BB7E008BE9EA /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C3F325A5BB7E008BE9EA /* ding.wav */; };
+		64F0C3FD25A5BC07008BE9EA /* GridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3FC25A5BC07008BE9EA /* GridApp.swift */; };
+		64F0C3FF25A5BC07008BE9EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3FE25A5BC07008BE9EA /* ContentView.swift */; };
+		64F0C40125A5BC0A008BE9EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C40025A5BC0A008BE9EA /* Assets.xcassets */; };
+		64F0C40425A5BC0A008BE9EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C40325A5BC0A008BE9EA /* Preview Assets.xcassets */; };
+		64F0C40C25A5BC51008BE9EA /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C40B25A5BC51008BE9EA /* ColorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,10 +60,25 @@
 		64F0C3E625A590DA008BE9EA /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		64F0C3EA25A59F1F008BE9EA /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 		64F0C3ED25A5ABF9008BE9EA /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		64F0C3F325A5BB7E008BE9EA /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		64F0C3FA25A5BC07008BE9EA /* Grid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F0C3FC25A5BC07008BE9EA /* GridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridApp.swift; sourceTree = "<group>"; };
+		64F0C3FE25A5BC07008BE9EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64F0C40025A5BC0A008BE9EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64F0C40325A5BC0A008BE9EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64F0C40525A5BC0A008BE9EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F0C40B25A5BC51008BE9EA /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		6458AF1825A445120063BFE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F0C3F725A5BC07008BE9EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				6458AF1D25A445120063BFE0 /* SwiftUIPro */,
+				64F0C3FB25A5BC07008BE9EA /* Grid */,
 				6458AF1C25A445120063BFE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				6458AF1B25A445120063BFE0 /* SwiftUIPro.app */,
+				64F0C3FA25A5BC07008BE9EA /* Grid.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +109,7 @@
 		6458AF1D25A445120063BFE0 /* SwiftUIPro */ = {
 			isa = PBXGroup;
 			children = (
+				64F0C3F225A5BB6C008BE9EA /* Resources */,
 				64F0C3B925A44BCF008BE9EA /* Models */,
 				6458AF1E25A445120063BFE0 /* SwiftUIProApp.swift */,
 				6458AF2025A445120063BFE0 /* ContentView.swift */,
@@ -128,6 +152,35 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		64F0C3F225A5BB6C008BE9EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				64F0C3F325A5BB7E008BE9EA /* ding.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		64F0C3FB25A5BC07008BE9EA /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				64F0C3FC25A5BC07008BE9EA /* GridApp.swift */,
+				64F0C3FE25A5BC07008BE9EA /* ContentView.swift */,
+				64F0C40B25A5BC51008BE9EA /* ColorView.swift */,
+				64F0C40025A5BC0A008BE9EA /* Assets.xcassets */,
+				64F0C40525A5BC0A008BE9EA /* Info.plist */,
+				64F0C40225A5BC0A008BE9EA /* Preview Content */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
+		64F0C40225A5BC0A008BE9EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64F0C40325A5BC0A008BE9EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,6 +201,23 @@
 			productReference = 6458AF1B25A445120063BFE0 /* SwiftUIPro.app */;
 			productType = "com.apple.product-type.application";
 		};
+		64F0C3F925A5BC07008BE9EA /* Grid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F0C40625A5BC0A008BE9EA /* Build configuration list for PBXNativeTarget "Grid" */;
+			buildPhases = (
+				64F0C3F625A5BC07008BE9EA /* Sources */,
+				64F0C3F725A5BC07008BE9EA /* Frameworks */,
+				64F0C3F825A5BC07008BE9EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Grid;
+			productName = Grid;
+			productReference = 64F0C3FA25A5BC07008BE9EA /* Grid.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -158,6 +228,9 @@
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					6458AF1A25A445120063BFE0 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					64F0C3F925A5BC07008BE9EA = {
 						CreatedOnToolsVersion = 12.0;
 					};
 				};
@@ -176,6 +249,7 @@
 			projectRoot = "";
 			targets = (
 				6458AF1A25A445120063BFE0 /* SwiftUIPro */,
+				64F0C3F925A5BC07008BE9EA /* Grid */,
 			);
 		};
 /* End PBXProject section */
@@ -185,8 +259,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F0C3F425A5BB7E008BE9EA /* ding.wav in Resources */,
 				6458AF2625A445140063BFE0 /* Preview Assets.xcassets in Resources */,
 				6458AF2325A445140063BFE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F0C3F825A5BC07008BE9EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F0C40425A5BC0A008BE9EA /* Preview Assets.xcassets in Resources */,
+				64F0C40125A5BC0A008BE9EA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +300,16 @@
 				64F0C3CB25A45A37008BE9EA /* ScrumData.swift in Sources */,
 				64F0C3D425A4683D008BE9EA /* CardView.swift in Sources */,
 				64F0C3C225A4505F008BE9EA /* History.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F0C3F625A5BC07008BE9EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F0C40C25A5BC51008BE9EA /* ColorView.swift in Sources */,
+				64F0C3FF25A5BC07008BE9EA /* ContentView.swift in Sources */,
+				64F0C3FD25A5BC07008BE9EA /* GridApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,6 +476,50 @@
 			};
 			name = Release;
 		};
+		64F0C40725A5BC0A008BE9EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Grid/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Grid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Grid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64F0C40825A5BC0A008BE9EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Grid/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Grid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Grid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -399,6 +537,15 @@
 			buildConfigurations = (
 				6458AF2B25A445140063BFE0 /* Debug */,
 				6458AF2C25A445140063BFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F0C40625A5BC0A008BE9EA /* Build configuration list for PBXNativeTarget "Grid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F0C40725A5BC0A008BE9EA /* Debug */,
+				64F0C40825A5BC0A008BE9EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
