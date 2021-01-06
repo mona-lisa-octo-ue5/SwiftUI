@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct DetailView: View {
-    var scrum:DailyScrum
+    @Binding var scrum:DailyScrum
     @State private var isPresented=false
     @State private var data:DailyScrum.Data=DailyScrum.Data()
     var body: some View {
         List{
             Section(header: Text("Meeting Info")) {
-                NavigationLink(destination: MeetingView()){
+                NavigationLink(destination: MeetingView(scrum: $scrum)){
                     Label("Start Meeting",systemImage:"timer")
                         .font(.headline)
                         .foregroundColor(.accentColor)
@@ -67,7 +67,7 @@ struct DetailView: View {
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView{
-            DetailView(scrum: .constant(DailyScrum.data))
+            DetailView(scrum: .constant(DailyScrum.data[0]))
         }
     }
 }
