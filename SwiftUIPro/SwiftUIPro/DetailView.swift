@@ -43,9 +43,18 @@ struct DetailView: View {
             }
         }
         .listStyle(InsetGroupedListStyle())
+        .navigationBarItems(trailing: Button("Edit"){
+            isPresented=true
+        })
         .navigationTitle(scrum.title)
         .fullScreenCover(isPresented: $isPresented){
             EditView()
+                .navigationTitle(scrum.title)
+                .navigationBarItems(leading: Button("Cancel"){
+                    isPresented=false
+                }, trailing: Button("Done"){
+                    isPresented=false
+                })
         }
     }
 }
