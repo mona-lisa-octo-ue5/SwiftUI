@@ -132,6 +132,11 @@
 		64F0C7EE25A703C0008BE9EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C7ED25A703C0008BE9EA /* Preview Assets.xcassets */; };
 		64F0C80725A703D6008BE9EA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C80625A703D6008BE9EA /* HomeView.swift */; };
 		64F0C81C25A704ED008BE9EA /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C81B25A704ED008BE9EA /* ItemView.swift */; };
+		64F0C83825A70B29008BE9EA /* VoiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C83725A70B29008BE9EA /* VoiceApp.swift */; };
+		64F0C83A25A70B29008BE9EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C83925A70B29008BE9EA /* ContentView.swift */; };
+		64F0C83C25A70B2B008BE9EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C83B25A70B2B008BE9EA /* Assets.xcassets */; };
+		64F0C83F25A70B2B008BE9EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C83E25A70B2B008BE9EA /* Preview Assets.xcassets */; };
+		64F0C85925A70B3C008BE9EA /* VoiceRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C85825A70B3C008BE9EA /* VoiceRecordingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -298,6 +303,13 @@
 		64F0C7EF25A703C0008BE9EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64F0C80625A703D6008BE9EA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		64F0C81B25A704ED008BE9EA /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
+		64F0C83525A70B29008BE9EA /* Voice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F0C83725A70B29008BE9EA /* VoiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceApp.swift; sourceTree = "<group>"; };
+		64F0C83925A70B29008BE9EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64F0C83B25A70B2B008BE9EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64F0C83E25A70B2B008BE9EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64F0C84025A70B2B008BE9EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F0C85825A70B3C008BE9EA /* VoiceRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecordingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -434,6 +446,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		64F0C83225A70B29008BE9EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -459,6 +478,7 @@
 				64F0C78725A6FCBE008BE9EA /* Particle */,
 				64F0C7BF25A6FFB0008BE9EA /* Chat */,
 				64F0C7E525A703BD008BE9EA /* Home */,
+				64F0C83625A70B29008BE9EA /* Voice */,
 				6458AF1C25A445120063BFE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -485,6 +505,7 @@
 				64F0C78625A6FCBE008BE9EA /* Particle.app */,
 				64F0C7BE25A6FFB0008BE9EA /* Chat.app */,
 				64F0C7E425A703BD008BE9EA /* Home.app */,
+				64F0C83525A70B29008BE9EA /* Voice.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -934,6 +955,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		64F0C83625A70B29008BE9EA /* Voice */ = {
+			isa = PBXGroup;
+			children = (
+				64F0C83725A70B29008BE9EA /* VoiceApp.swift */,
+				64F0C83925A70B29008BE9EA /* ContentView.swift */,
+				64F0C85825A70B3C008BE9EA /* VoiceRecordingView.swift */,
+				64F0C83B25A70B2B008BE9EA /* Assets.xcassets */,
+				64F0C84025A70B2B008BE9EA /* Info.plist */,
+				64F0C83D25A70B2B008BE9EA /* Preview Content */,
+			);
+			path = Voice;
+			sourceTree = "<group>";
+		};
+		64F0C83D25A70B2B008BE9EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64F0C83E25A70B2B008BE9EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1260,6 +1302,23 @@
 			productReference = 64F0C7E425A703BD008BE9EA /* Home.app */;
 			productType = "com.apple.product-type.application";
 		};
+		64F0C83425A70B29008BE9EA /* Voice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F0C84125A70B2B008BE9EA /* Build configuration list for PBXNativeTarget "Voice" */;
+			buildPhases = (
+				64F0C83125A70B29008BE9EA /* Sources */,
+				64F0C83225A70B29008BE9EA /* Frameworks */,
+				64F0C83325A70B29008BE9EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voice;
+			productName = Voice;
+			productReference = 64F0C83525A70B29008BE9EA /* Voice.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1326,6 +1385,9 @@
 					64F0C7E325A703BD008BE9EA = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					64F0C83425A70B29008BE9EA = {
+						CreatedOnToolsVersion = 12.0;
+					};
 				};
 			};
 			buildConfigurationList = 6458AF1625A445120063BFE0 /* Build configuration list for PBXProject "SwiftUIPro" */;
@@ -1360,6 +1422,7 @@
 				64F0C78525A6FCBE008BE9EA /* Particle */,
 				64F0C7BD25A6FFB0008BE9EA /* Chat */,
 				64F0C7E325A703BD008BE9EA /* Home */,
+				64F0C83425A70B29008BE9EA /* Voice */,
 			);
 		};
 /* End PBXProject section */
@@ -1534,6 +1597,15 @@
 			files = (
 				64F0C7EE25A703C0008BE9EA /* Preview Assets.xcassets in Resources */,
 				64F0C7EB25A703C0008BE9EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F0C83325A70B29008BE9EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F0C83F25A70B2B008BE9EA /* Preview Assets.xcassets in Resources */,
+				64F0C83C25A70B2B008BE9EA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1756,6 +1828,16 @@
 				64F0C7E925A703BD008BE9EA /* ContentView.swift in Sources */,
 				64F0C7E725A703BD008BE9EA /* HomeApp.swift in Sources */,
 				64F0C81C25A704ED008BE9EA /* ItemView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F0C83125A70B29008BE9EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F0C85925A70B3C008BE9EA /* VoiceRecordingView.swift in Sources */,
+				64F0C83A25A70B29008BE9EA /* ContentView.swift in Sources */,
+				64F0C83825A70B29008BE9EA /* VoiceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2714,6 +2796,50 @@
 			};
 			name = Release;
 		};
+		64F0C84225A70B2B008BE9EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Voice/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Voice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Voice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64F0C84325A70B2B008BE9EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Voice/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Voice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Voice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2893,6 +3019,15 @@
 			buildConfigurations = (
 				64F0C7F125A703C0008BE9EA /* Debug */,
 				64F0C7F225A703C0008BE9EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F0C84125A70B2B008BE9EA /* Build configuration list for PBXNativeTarget "Voice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F0C84225A70B2B008BE9EA /* Debug */,
+				64F0C84325A70B2B008BE9EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
