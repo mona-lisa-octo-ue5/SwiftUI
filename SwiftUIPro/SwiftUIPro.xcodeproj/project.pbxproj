@@ -137,6 +137,13 @@
 		64F0C83C25A70B2B008BE9EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C83B25A70B2B008BE9EA /* Assets.xcassets */; };
 		64F0C83F25A70B2B008BE9EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C83E25A70B2B008BE9EA /* Preview Assets.xcassets */; };
 		64F0C85925A70B3C008BE9EA /* VoiceRecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C85825A70B3C008BE9EA /* VoiceRecordingView.swift */; };
+		64F0C87625A71233008BE9EA /* PasswordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C87525A71233008BE9EA /* PasswordApp.swift */; };
+		64F0C87825A71233008BE9EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C87725A71233008BE9EA /* ContentView.swift */; };
+		64F0C87A25A71234008BE9EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C87925A71234008BE9EA /* Assets.xcassets */; };
+		64F0C87D25A71234008BE9EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C87C25A71234008BE9EA /* Preview Assets.xcassets */; };
+		64F0C89825A71243008BE9EA /* LockScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C89725A71243008BE9EA /* LockScreen.swift */; };
+		64F0C8AF25A71262008BE9EA /* PasswordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C8AE25A71262008BE9EA /* PasswordButton.swift */; };
+		64F0C8C625A7149E008BE9EA /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C8C525A7149E008BE9EA /* PasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -310,6 +317,15 @@
 		64F0C83E25A70B2B008BE9EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64F0C84025A70B2B008BE9EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64F0C85825A70B3C008BE9EA /* VoiceRecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecordingView.swift; sourceTree = "<group>"; };
+		64F0C87325A71233008BE9EA /* Password.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Password.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F0C87525A71233008BE9EA /* PasswordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordApp.swift; sourceTree = "<group>"; };
+		64F0C87725A71233008BE9EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64F0C87925A71234008BE9EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64F0C87C25A71234008BE9EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64F0C87E25A71234008BE9EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F0C89725A71243008BE9EA /* LockScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreen.swift; sourceTree = "<group>"; };
+		64F0C8AE25A71262008BE9EA /* PasswordButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordButton.swift; sourceTree = "<group>"; };
+		64F0C8C525A7149E008BE9EA /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -453,6 +469,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		64F0C87025A71233008BE9EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -479,6 +502,7 @@
 				64F0C7BF25A6FFB0008BE9EA /* Chat */,
 				64F0C7E525A703BD008BE9EA /* Home */,
 				64F0C83625A70B29008BE9EA /* Voice */,
+				64F0C87425A71233008BE9EA /* Password */,
 				6458AF1C25A445120063BFE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -506,6 +530,7 @@
 				64F0C7BE25A6FFB0008BE9EA /* Chat.app */,
 				64F0C7E425A703BD008BE9EA /* Home.app */,
 				64F0C83525A70B29008BE9EA /* Voice.app */,
+				64F0C87325A71233008BE9EA /* Password.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -976,6 +1001,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		64F0C87425A71233008BE9EA /* Password */ = {
+			isa = PBXGroup;
+			children = (
+				64F0C87525A71233008BE9EA /* PasswordApp.swift */,
+				64F0C87725A71233008BE9EA /* ContentView.swift */,
+				64F0C89725A71243008BE9EA /* LockScreen.swift */,
+				64F0C8AE25A71262008BE9EA /* PasswordButton.swift */,
+				64F0C8C525A7149E008BE9EA /* PasswordView.swift */,
+				64F0C87925A71234008BE9EA /* Assets.xcassets */,
+				64F0C87E25A71234008BE9EA /* Info.plist */,
+				64F0C87B25A71234008BE9EA /* Preview Content */,
+			);
+			path = Password;
+			sourceTree = "<group>";
+		};
+		64F0C87B25A71234008BE9EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64F0C87C25A71234008BE9EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1319,6 +1367,23 @@
 			productReference = 64F0C83525A70B29008BE9EA /* Voice.app */;
 			productType = "com.apple.product-type.application";
 		};
+		64F0C87225A71233008BE9EA /* Password */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F0C87F25A71234008BE9EA /* Build configuration list for PBXNativeTarget "Password" */;
+			buildPhases = (
+				64F0C86F25A71233008BE9EA /* Sources */,
+				64F0C87025A71233008BE9EA /* Frameworks */,
+				64F0C87125A71233008BE9EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Password;
+			productName = Password;
+			productReference = 64F0C87325A71233008BE9EA /* Password.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1388,6 +1453,9 @@
 					64F0C83425A70B29008BE9EA = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					64F0C87225A71233008BE9EA = {
+						CreatedOnToolsVersion = 12.0;
+					};
 				};
 			};
 			buildConfigurationList = 6458AF1625A445120063BFE0 /* Build configuration list for PBXProject "SwiftUIPro" */;
@@ -1423,6 +1491,7 @@
 				64F0C7BD25A6FFB0008BE9EA /* Chat */,
 				64F0C7E325A703BD008BE9EA /* Home */,
 				64F0C83425A70B29008BE9EA /* Voice */,
+				64F0C87225A71233008BE9EA /* Password */,
 			);
 		};
 /* End PBXProject section */
@@ -1606,6 +1675,15 @@
 			files = (
 				64F0C83F25A70B2B008BE9EA /* Preview Assets.xcassets in Resources */,
 				64F0C83C25A70B2B008BE9EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F0C87125A71233008BE9EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F0C87D25A71234008BE9EA /* Preview Assets.xcassets in Resources */,
+				64F0C87A25A71234008BE9EA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1838,6 +1916,18 @@
 				64F0C85925A70B3C008BE9EA /* VoiceRecordingView.swift in Sources */,
 				64F0C83A25A70B29008BE9EA /* ContentView.swift in Sources */,
 				64F0C83825A70B29008BE9EA /* VoiceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F0C86F25A71233008BE9EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F0C8C625A7149E008BE9EA /* PasswordView.swift in Sources */,
+				64F0C87825A71233008BE9EA /* ContentView.swift in Sources */,
+				64F0C89825A71243008BE9EA /* LockScreen.swift in Sources */,
+				64F0C8AF25A71262008BE9EA /* PasswordButton.swift in Sources */,
+				64F0C87625A71233008BE9EA /* PasswordApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2840,6 +2930,50 @@
 			};
 			name = Release;
 		};
+		64F0C88025A71234008BE9EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Password/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Password/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Password;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64F0C88125A71234008BE9EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Password/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Password/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Password;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -3028,6 +3162,15 @@
 			buildConfigurations = (
 				64F0C84225A70B2B008BE9EA /* Debug */,
 				64F0C84325A70B2B008BE9EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F0C87F25A71234008BE9EA /* Build configuration list for PBXNativeTarget "Password" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F0C88025A71234008BE9EA /* Debug */,
+				64F0C88125A71234008BE9EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
