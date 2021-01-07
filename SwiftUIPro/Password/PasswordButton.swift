@@ -19,9 +19,9 @@ struct PasswordButton: View {
             password.append(value)
             DispatchQueue.main.asyncAfter(deadline: .now()+0.3) {
                 withAnimation{
-                    if password.count==4 {
-                        if password==key{
-                            unlocked=true
+                    if password.count == 4 {
+                        if password == key{
+                            unlocked = true
                         }else{
                             wrongPass=true
                             password.removeAll()
@@ -33,12 +33,12 @@ struct PasswordButton: View {
     }
     private func setPassword(){
         withAnimation {
-            if value.count>1 {
+            if value.count > 1 {
                 if password.count != 0 {
                     password.removeLast()
                 }
             }else{
-                
+                isTyping()
             }
         }
     }
