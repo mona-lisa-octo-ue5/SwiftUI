@@ -64,6 +64,12 @@
 		64F0C51925A6AF7E008BE9EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C51825A6AF7E008BE9EA /* Assets.xcassets */; };
 		64F0C51C25A6AF7E008BE9EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C51B25A6AF7E008BE9EA /* Preview Assets.xcassets */; };
 		64F0C52A25A6AFA0008BE9EA /* TopHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C52925A6AFA0008BE9EA /* TopHUD.swift */; };
+		64F0C53B25A6B288008BE9EA /* VectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C53A25A6B288008BE9EA /* VectorApp.swift */; };
+		64F0C53D25A6B288008BE9EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C53C25A6B288008BE9EA /* ContentView.swift */; };
+		64F0C53F25A6B28A008BE9EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C53E25A6B28A008BE9EA /* Assets.xcassets */; };
+		64F0C54225A6B28A008BE9EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C54125A6B28A008BE9EA /* Preview Assets.xcassets */; };
+		64F0C55125A6B299008BE9EA /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C55025A6B299008BE9EA /* LineChart.swift */; };
+		64F0C55C25A6B2B6008BE9EA /* AnimatableVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C55B25A6B2B6008BE9EA /* AnimatableVector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -140,6 +146,14 @@
 		64F0C51B25A6AF7E008BE9EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64F0C51D25A6AF7E008BE9EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64F0C52925A6AFA0008BE9EA /* TopHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopHUD.swift; sourceTree = "<group>"; };
+		64F0C53825A6B288008BE9EA /* Vector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F0C53A25A6B288008BE9EA /* VectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorApp.swift; sourceTree = "<group>"; };
+		64F0C53C25A6B288008BE9EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64F0C53E25A6B28A008BE9EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64F0C54125A6B28A008BE9EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64F0C54325A6B28A008BE9EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F0C55025A6B299008BE9EA /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		64F0C55B25A6B2B6008BE9EA /* AnimatableVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableVector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +213,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		64F0C53525A6B288008BE9EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -213,6 +234,7 @@
 				64F0C4C425A6A622008BE9EA /* Presented */,
 				64F0C4E625A6A7AD008BE9EA /* Mode */,
 				64F0C51325A6AF7C008BE9EA /* TopHUD */,
+				64F0C53925A6B288008BE9EA /* Vector */,
 				6458AF1C25A445120063BFE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -228,6 +250,7 @@
 				64F0C4C325A6A622008BE9EA /* Presented.app */,
 				64F0C4E525A6A7AD008BE9EA /* Mode.app */,
 				64F0C51225A6AF7C008BE9EA /* TopHUD.app */,
+				64F0C53825A6B288008BE9EA /* Vector.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -433,6 +456,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		64F0C53925A6B288008BE9EA /* Vector */ = {
+			isa = PBXGroup;
+			children = (
+				64F0C53A25A6B288008BE9EA /* VectorApp.swift */,
+				64F0C53C25A6B288008BE9EA /* ContentView.swift */,
+				64F0C55B25A6B2B6008BE9EA /* AnimatableVector.swift */,
+				64F0C55025A6B299008BE9EA /* LineChart.swift */,
+				64F0C53E25A6B28A008BE9EA /* Assets.xcassets */,
+				64F0C54325A6B28A008BE9EA /* Info.plist */,
+				64F0C54025A6B28A008BE9EA /* Preview Content */,
+			);
+			path = Vector;
+			sourceTree = "<group>";
+		};
+		64F0C54025A6B28A008BE9EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64F0C54125A6B28A008BE9EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -572,6 +617,23 @@
 			productReference = 64F0C51225A6AF7C008BE9EA /* TopHUD.app */;
 			productType = "com.apple.product-type.application";
 		};
+		64F0C53725A6B288008BE9EA /* Vector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F0C54425A6B28A008BE9EA /* Build configuration list for PBXNativeTarget "Vector" */;
+			buildPhases = (
+				64F0C53425A6B288008BE9EA /* Sources */,
+				64F0C53525A6B288008BE9EA /* Frameworks */,
+				64F0C53625A6B288008BE9EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vector;
+			productName = Vector;
+			productReference = 64F0C53825A6B288008BE9EA /* Vector.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -605,6 +667,9 @@
 					64F0C51125A6AF7C008BE9EA = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					64F0C53725A6B288008BE9EA = {
+						CreatedOnToolsVersion = 12.0;
+					};
 				};
 			};
 			buildConfigurationList = 6458AF1625A445120063BFE0 /* Build configuration list for PBXProject "SwiftUIPro" */;
@@ -628,6 +693,7 @@
 				64F0C4C225A6A622008BE9EA /* Presented */,
 				64F0C4E425A6A7AD008BE9EA /* Mode */,
 				64F0C51125A6AF7C008BE9EA /* TopHUD */,
+				64F0C53725A6B288008BE9EA /* Vector */,
 			);
 		};
 /* End PBXProject section */
@@ -703,6 +769,15 @@
 			files = (
 				64F0C51C25A6AF7E008BE9EA /* Preview Assets.xcassets in Resources */,
 				64F0C51925A6AF7E008BE9EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F0C53625A6B288008BE9EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F0C54225A6B28A008BE9EA /* Preview Assets.xcassets in Resources */,
+				64F0C53F25A6B28A008BE9EA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -802,6 +877,17 @@
 				64F0C51725A6AF7C008BE9EA /* ContentView.swift in Sources */,
 				64F0C52A25A6AFA0008BE9EA /* TopHUD.swift in Sources */,
 				64F0C51525A6AF7C008BE9EA /* TopHUDApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F0C53425A6B288008BE9EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F0C53D25A6B288008BE9EA /* ContentView.swift in Sources */,
+				64F0C53B25A6B288008BE9EA /* VectorApp.swift in Sources */,
+				64F0C55C25A6B2B6008BE9EA /* AnimatableVector.swift in Sources */,
+				64F0C55125A6B299008BE9EA /* LineChart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1276,6 +1362,50 @@
 			};
 			name = Release;
 		};
+		64F0C54525A6B28A008BE9EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Vector/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Vector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Vector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64F0C54625A6B28A008BE9EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Vector/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Vector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Vector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1356,6 +1486,15 @@
 			buildConfigurations = (
 				64F0C51F25A6AF7E008BE9EA /* Debug */,
 				64F0C52025A6AF7E008BE9EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F0C54425A6B28A008BE9EA /* Build configuration list for PBXNativeTarget "Vector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F0C54525A6B28A008BE9EA /* Debug */,
+				64F0C54625A6B28A008BE9EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
