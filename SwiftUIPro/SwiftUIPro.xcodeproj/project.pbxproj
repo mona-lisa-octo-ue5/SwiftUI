@@ -44,6 +44,9 @@
 		64F0C43725A5C754008BE9EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C43625A5C754008BE9EA /* Assets.xcassets */; };
 		64F0C43A25A5C754008BE9EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C43925A5C754008BE9EA /* Preview Assets.xcassets */; };
 		64F0C44425A5C768008BE9EA /* TouchSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C44325A5C768008BE9EA /* TouchSlider.swift */; };
+		64F0C46E25A69F8D008BE9EA /* SpringIndicatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C46D25A69F8D008BE9EA /* SpringIndicatorApp.swift */; };
+		64F0C47225A69F8D008BE9EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C47125A69F8D008BE9EA /* Assets.xcassets */; };
+		64F0C47525A69F8D008BE9EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C47425A69F8D008BE9EA /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +95,12 @@
 		64F0C43925A5C754008BE9EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64F0C43B25A5C754008BE9EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64F0C44325A5C768008BE9EA /* TouchSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchSlider.swift; sourceTree = "<group>"; };
+		64F0C46B25A69F8D008BE9EA /* SpringIndicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringIndicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F0C46D25A69F8D008BE9EA /* SpringIndicatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringIndicatorApp.swift; sourceTree = "<group>"; };
+		64F0C46F25A69F8D008BE9EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64F0C47125A69F8D008BE9EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64F0C47425A69F8D008BE9EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64F0C47625A69F8D008BE9EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +132,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		64F0C46825A69F8D008BE9EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -133,6 +149,7 @@
 				64F0C3FB25A5BC07008BE9EA /* Grid */,
 				64F0C41525A5C1A8008BE9EA /* Charge */,
 				64F0C43125A5C753008BE9EA /* Touch */,
+				64F0C46C25A69F8D008BE9EA /* SpringIndicator */,
 				6458AF1C25A445120063BFE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -144,6 +161,7 @@
 				64F0C3FA25A5BC07008BE9EA /* Grid.app */,
 				64F0C41425A5C1A8008BE9EA /* Charge.app */,
 				64F0C43025A5C753008BE9EA /* Touch.app */,
+				64F0C46B25A69F8D008BE9EA /* SpringIndicator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -265,6 +283,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		64F0C46C25A69F8D008BE9EA /* SpringIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				64F0C46D25A69F8D008BE9EA /* SpringIndicatorApp.swift */,
+				64F0C46F25A69F8D008BE9EA /* ContentView.swift */,
+				64F0C47125A69F8D008BE9EA /* Assets.xcassets */,
+				64F0C47625A69F8D008BE9EA /* Info.plist */,
+				64F0C47325A69F8D008BE9EA /* Preview Content */,
+			);
+			path = SpringIndicator;
+			sourceTree = "<group>";
+		};
+		64F0C47325A69F8D008BE9EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64F0C47425A69F8D008BE9EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -336,6 +374,23 @@
 			productReference = 64F0C43025A5C753008BE9EA /* Touch.app */;
 			productType = "com.apple.product-type.application";
 		};
+		64F0C46A25A69F8D008BE9EA /* SpringIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F0C47725A69F8D008BE9EA /* Build configuration list for PBXNativeTarget "SpringIndicator" */;
+			buildPhases = (
+				64F0C46725A69F8D008BE9EA /* Sources */,
+				64F0C46825A69F8D008BE9EA /* Frameworks */,
+				64F0C46925A69F8D008BE9EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpringIndicator;
+			productName = SpringIndicator;
+			productReference = 64F0C46B25A69F8D008BE9EA /* SpringIndicator.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -357,6 +412,9 @@
 					64F0C42F25A5C753008BE9EA = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					64F0C46A25A69F8D008BE9EA = {
+						CreatedOnToolsVersion = 12.0;
+					};
 				};
 			};
 			buildConfigurationList = 6458AF1625A445120063BFE0 /* Build configuration list for PBXProject "SwiftUIPro" */;
@@ -376,6 +434,7 @@
 				64F0C3F925A5BC07008BE9EA /* Grid */,
 				64F0C41325A5C1A8008BE9EA /* Charge */,
 				64F0C42F25A5C753008BE9EA /* Touch */,
+				64F0C46A25A69F8D008BE9EA /* SpringIndicator */,
 			);
 		};
 /* End PBXProject section */
@@ -415,6 +474,15 @@
 			files = (
 				64F0C43A25A5C754008BE9EA /* Preview Assets.xcassets in Resources */,
 				64F0C43725A5C754008BE9EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F0C46925A69F8D008BE9EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F0C47525A69F8D008BE9EA /* Preview Assets.xcassets in Resources */,
+				64F0C47225A69F8D008BE9EA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +542,14 @@
 				64F0C43525A5C753008BE9EA /* ContentView.swift in Sources */,
 				64F0C44425A5C768008BE9EA /* TouchSlider.swift in Sources */,
 				64F0C43325A5C753008BE9EA /* TouchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F0C46725A69F8D008BE9EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F0C46E25A69F8D008BE9EA /* SpringIndicatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -772,6 +848,50 @@
 			};
 			name = Release;
 		};
+		64F0C47825A69F8D008BE9EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SpringIndicator/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SpringIndicator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.SpringIndicator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64F0C47925A69F8D008BE9EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SpringIndicator/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SpringIndicator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.SpringIndicator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -816,6 +936,15 @@
 			buildConfigurations = (
 				64F0C43D25A5C754008BE9EA /* Debug */,
 				64F0C43E25A5C754008BE9EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F0C47725A69F8D008BE9EA /* Build configuration list for PBXNativeTarget "SpringIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F0C47825A69F8D008BE9EA /* Debug */,
+				64F0C47925A69F8D008BE9EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
