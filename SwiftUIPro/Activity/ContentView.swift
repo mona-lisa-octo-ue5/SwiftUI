@@ -18,6 +18,7 @@ struct ContentView: View {
                 .frame(width: 100, height: 100, alignment: .center)
             AudioEqualizer(isAnimationState: $isAnimate)
             AccordionView(isAnimationState: $isAnimate)
+            HorizontalBarView(isAnimationState: $isAnimate)
         }
         .onAppear(){
             self.isAnimate.toggle()
