@@ -107,6 +107,7 @@
 		64F0C6C225A6ED49008BE9EA /* SeismicWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C6C125A6ED49008BE9EA /* SeismicWaveView.swift */; };
 		64F0C6D325A6EE5A008BE9EA /* RotatingDotsIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C6D225A6EE5A008BE9EA /* RotatingDotsIndicatorView.swift */; };
 		64F0C6E425A6EF13008BE9EA /* AudioEqualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C6E325A6EF13008BE9EA /* AudioEqualizer.swift */; };
+		64F0C6F525A6F09B008BE9EA /* AccordionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C6F425A6F09B008BE9EA /* AccordionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -240,6 +241,7 @@
 		64F0C6C125A6ED49008BE9EA /* SeismicWaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeismicWaveView.swift; sourceTree = "<group>"; };
 		64F0C6D225A6EE5A008BE9EA /* RotatingDotsIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingDotsIndicatorView.swift; sourceTree = "<group>"; };
 		64F0C6E325A6EF13008BE9EA /* AudioEqualizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEqualizer.swift; sourceTree = "<group>"; };
+		64F0C6F425A6F09B008BE9EA /* AccordionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -736,6 +738,7 @@
 				64F0C6C125A6ED49008BE9EA /* SeismicWaveView.swift */,
 				64F0C6D225A6EE5A008BE9EA /* RotatingDotsIndicatorView.swift */,
 				64F0C6E325A6EF13008BE9EA /* AudioEqualizer.swift */,
+				64F0C6F425A6F09B008BE9EA /* AccordionView.swift */,
 				64F0C69825A6EC4E008BE9EA /* Assets.xcassets */,
 				64F0C69D25A6EC4E008BE9EA /* Info.plist */,
 				64F0C69A25A6EC4E008BE9EA /* Preview Content */,
@@ -1405,6 +1408,7 @@
 				64F0C6D325A6EE5A008BE9EA /* RotatingDotsIndicatorView.swift in Sources */,
 				64F0C6E425A6EF13008BE9EA /* AudioEqualizer.swift in Sources */,
 				64F0C69725A6EC4B008BE9EA /* ContentView.swift in Sources */,
+				64F0C6F525A6F09B008BE9EA /* AccordionView.swift in Sources */,
 				64F0C6B125A6EC73008BE9EA /* ActivityIndicator.swift in Sources */,
 				64F0C69525A6EC4B008BE9EA /* ActivityApp.swift in Sources */,
 				64F0C6C225A6ED49008BE9EA /* SeismicWaveView.swift in Sources */,

@@ -17,6 +17,7 @@ struct ContentView: View {
                 .foregroundColor(.green)
                 .frame(width: 100, height: 100, alignment: .center)
             AudioEqualizer(isAnimationState: $isAnimate)
+            AccordionView(isAnimationState: $isAnimate)
         }
         .onAppear(){
             self.isAnimate.toggle()
