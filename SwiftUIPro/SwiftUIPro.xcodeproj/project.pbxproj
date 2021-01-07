@@ -117,6 +117,11 @@
 		64F0C74C25A6F2DF008BE9EA /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C74B25A6F2DF008BE9EA /* ClockView.swift */; };
 		64F0C75E25A6F3B6008BE9EA /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C75D25A6F3B6008BE9EA /* ProgressBar.swift */; };
 		64F0C77025A6F536008BE9EA /* ProgressTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C76F25A6F536008BE9EA /* ProgressTrackView.swift */; };
+		64F0C78925A6FCBF008BE9EA /* ParticleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C78825A6FCBE008BE9EA /* ParticleApp.swift */; };
+		64F0C78B25A6FCBF008BE9EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C78A25A6FCBF008BE9EA /* ContentView.swift */; };
+		64F0C78D25A6FCC1008BE9EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C78C25A6FCC1008BE9EA /* Assets.xcassets */; };
+		64F0C79025A6FCC1008BE9EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F0C78F25A6FCC1008BE9EA /* Preview Assets.xcassets */; };
+		64F0C7A725A6FCDB008BE9EA /* ParticleEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C7A625A6FCDB008BE9EA /* ParticleEffectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -262,6 +267,13 @@
 		64F0C74B25A6F2DF008BE9EA /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
 		64F0C75D25A6F3B6008BE9EA /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		64F0C76F25A6F536008BE9EA /* ProgressTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressTrackView.swift; sourceTree = "<group>"; };
+		64F0C78625A6FCBE008BE9EA /* Particle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Particle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F0C78825A6FCBE008BE9EA /* ParticleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleApp.swift; sourceTree = "<group>"; };
+		64F0C78A25A6FCBF008BE9EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64F0C78C25A6FCC1008BE9EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64F0C78F25A6FCC1008BE9EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64F0C79125A6FCC1008BE9EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F0C7A625A6FCDB008BE9EA /* ParticleEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleEffectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -377,6 +389,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		64F0C78325A6FCBE008BE9EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -399,6 +418,7 @@
 				64F0C66125A6EA95008BE9EA /* Flower */,
 				64F0C69325A6EC4B008BE9EA /* Activity */,
 				64F0C72D25A6F2CD008BE9EA /* Timer */,
+				64F0C78725A6FCBE008BE9EA /* Particle */,
 				6458AF1C25A445120063BFE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -422,6 +442,7 @@
 				64F0C66025A6EA95008BE9EA /* Flower.app */,
 				64F0C69225A6EC4B008BE9EA /* Activity.app */,
 				64F0C72C25A6F2CD008BE9EA /* Timer.app */,
+				64F0C78625A6FCBE008BE9EA /* Particle.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -808,6 +829,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		64F0C78725A6FCBE008BE9EA /* Particle */ = {
+			isa = PBXGroup;
+			children = (
+				64F0C78825A6FCBE008BE9EA /* ParticleApp.swift */,
+				64F0C78A25A6FCBF008BE9EA /* ContentView.swift */,
+				64F0C7A625A6FCDB008BE9EA /* ParticleEffectView.swift */,
+				64F0C78C25A6FCC1008BE9EA /* Assets.xcassets */,
+				64F0C79125A6FCC1008BE9EA /* Info.plist */,
+				64F0C78E25A6FCC1008BE9EA /* Preview Content */,
+			);
+			path = Particle;
+			sourceTree = "<group>";
+		};
+		64F0C78E25A6FCC1008BE9EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64F0C78F25A6FCC1008BE9EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1083,6 +1125,23 @@
 			productReference = 64F0C72C25A6F2CD008BE9EA /* Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
+		64F0C78525A6FCBE008BE9EA /* Particle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F0C79225A6FCC1008BE9EA /* Build configuration list for PBXNativeTarget "Particle" */;
+			buildPhases = (
+				64F0C78225A6FCBE008BE9EA /* Sources */,
+				64F0C78325A6FCBE008BE9EA /* Frameworks */,
+				64F0C78425A6FCBE008BE9EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Particle;
+			productName = Particle;
+			productReference = 64F0C78625A6FCBE008BE9EA /* Particle.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1140,6 +1199,9 @@
 					64F0C72B25A6F2CD008BE9EA = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					64F0C78525A6FCBE008BE9EA = {
+						CreatedOnToolsVersion = 12.0;
+					};
 				};
 			};
 			buildConfigurationList = 6458AF1625A445120063BFE0 /* Build configuration list for PBXProject "SwiftUIPro" */;
@@ -1171,6 +1233,7 @@
 				64F0C65F25A6EA95008BE9EA /* Flower */,
 				64F0C69125A6EC4B008BE9EA /* Activity */,
 				64F0C72B25A6F2CD008BE9EA /* Timer */,
+				64F0C78525A6FCBE008BE9EA /* Particle */,
 			);
 		};
 /* End PBXProject section */
@@ -1318,6 +1381,15 @@
 			files = (
 				64F0C73625A6F2CF008BE9EA /* Preview Assets.xcassets in Resources */,
 				64F0C73325A6F2CF008BE9EA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F0C78425A6FCBE008BE9EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F0C79025A6FCC1008BE9EA /* Preview Assets.xcassets in Resources */,
+				64F0C78D25A6FCC1008BE9EA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1510,6 +1582,16 @@
 				64F0C77025A6F536008BE9EA /* ProgressTrackView.swift in Sources */,
 				64F0C75E25A6F3B6008BE9EA /* ProgressBar.swift in Sources */,
 				64F0C72F25A6F2CD008BE9EA /* TimerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64F0C78225A6FCBE008BE9EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F0C7A725A6FCDB008BE9EA /* ParticleEffectView.swift in Sources */,
+				64F0C78B25A6FCBF008BE9EA /* ContentView.swift in Sources */,
+				64F0C78925A6FCBF008BE9EA /* ParticleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2336,6 +2418,50 @@
 			};
 			name = Release;
 		};
+		64F0C79325A6FCC1008BE9EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Particle/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Particle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Particle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64F0C79425A6FCC1008BE9EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Particle/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Particle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Particle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2488,6 +2614,15 @@
 			buildConfigurations = (
 				64F0C73925A6F2CF008BE9EA /* Debug */,
 				64F0C73A25A6F2CF008BE9EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F0C79225A6FCC1008BE9EA /* Build configuration list for PBXNativeTarget "Particle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F0C79325A6FCC1008BE9EA /* Debug */,
+				64F0C79425A6FCC1008BE9EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

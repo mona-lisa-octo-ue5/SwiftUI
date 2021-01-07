@@ -44,6 +44,11 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>Particle.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
+		</dict>
 		<key>Presented.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
