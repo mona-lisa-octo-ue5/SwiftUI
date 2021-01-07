@@ -19,6 +19,7 @@ struct ContentView: View {
             AudioEqualizer(isAnimationState: $isAnimate)
             AccordionView(isAnimationState: $isAnimate)
             HorizontalBarView(isAnimationState: $isAnimate)
+            CircleView(isAnimationState: $isAnimate, circleViewCount: 6)
         }
         .onAppear(){
             self.isAnimate.toggle()
