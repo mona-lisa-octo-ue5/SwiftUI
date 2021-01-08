@@ -8,10 +8,12 @@
 import SwiftUI
 
 struct HourTexts: View {
-    @State var index:Int=0
-    let marginRatio:CGFloat
+    @State var index: Int = 0
+    
+    let marginRatio: CGFloat
+    
     var body: some View {
-        Text(index/5==0 ? "12" : "\(index/5)")
-            .modifier(PositionInCircle(angle: .degrees(Double(index)*6), marginRatio: marginRatio))
+        Text(index / 5 == 0 ? "12" : "\(index / 5)")
+            .modifier(PositionInCircle(angle: .degrees(Double(index) * 6), marginRatio: marginRatio))
     }
 }

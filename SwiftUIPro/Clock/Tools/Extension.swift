@@ -8,30 +8,30 @@
 import SwiftUI
 
 extension CGPoint{
-    static func inCircle(_ circle:CGRect,for angle:Angle,margin:CGFloat=0.0)->Self{
-        let radians = CGFloat(angle.radians) - .pi/2
+    static func inCircle(_ circle: CGRect,for angle:Angle, margin:CGFloat = 0.0) -> Self {
+        let radians = CGFloat(angle.radians) - .pi / 2
         return CGPoint(
-            x: circle.midX+(circle.radius-margin)*cos(radians),
-            y: circle.minY+(circle.radius-margin)*sin(radians)
+            x: circle.midX + (circle.radius - margin) * cos(radians),
+            y: circle.midY + (circle.radius - margin) * sin(radians)
         )
     }
 }
-extension CGRect{
-    static func circle(center:CGPoint,radius:CGFloat)->Self{
-        .init(x: center.x-radius, y: center.y-radius, width: radius*2, height: radius*2)
+extension CGRect {
+    static func circle(center: CGPoint,radius: CGFloat) -> Self{
+        .init(x: center.x - radius, y: center.y - radius, width: radius * 2, height: radius * 2)
     }
-    var center:CGPoint{
+    var center: CGPoint{
         .init(x: midX, y: midY)
     }
-    var radius:CGFloat{
-        min(width, height)/2
+    var radius: CGFloat{
+        min(width, height) / 2
     }
 }
 extension GeometryProxy{
-    var radius:CGFloat{
-        min(size.width, size.height)/2
+    var radius: CGFloat{
+        min(size.width, size.height) / 2
     }
-    var circle:CGRect{
+    var circle: CGRect{
         frame(in: .local)
     }
 }
