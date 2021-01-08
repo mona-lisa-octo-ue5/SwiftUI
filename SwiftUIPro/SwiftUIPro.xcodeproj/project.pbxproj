@@ -24,6 +24,11 @@
 		64C3AAE425A7F87F0058C854 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3AAE325A7F87F0058C854 /* Common.swift */; };
 		64C3AAFF25A7F8990058C854 /* PositionInCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3AAFE25A7F8990058C854 /* PositionInCircle.swift */; };
 		64C3ABC925A807690058C854 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64C3ABCB25A807690058C854 /* Localizable.strings */; };
+		64C3AC0525A832260058C854 /* IndicatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3AC0425A832260058C854 /* IndicatorApp.swift */; };
+		64C3AC0725A832260058C854 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3AC0625A832260058C854 /* ContentView.swift */; };
+		64C3AC0925A832290058C854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C3AC0825A832290058C854 /* Assets.xcassets */; };
+		64C3AC0C25A832290058C854 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C3AC0B25A832290058C854 /* Preview Assets.xcassets */; };
+		64C3AC5F25A8327D0058C854 /* IndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3AC5E25A8327D0058C854 /* IndicatorView.swift */; };
 		64F0C3BB25A44BEA008BE9EA /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3BA25A44BEA008BE9EA /* Color+Codable.swift */; };
 		64F0C3BF25A44FF6008BE9EA /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3BE25A44FF6008BE9EA /* DailyScrum.swift */; };
 		64F0C3C225A4505F008BE9EA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3C125A4505F008BE9EA /* History.swift */; };
@@ -192,6 +197,13 @@
 		64C3AAFE25A7F8990058C854 /* PositionInCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionInCircle.swift; sourceTree = "<group>"; };
 		64C3ABCA25A807690058C854 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		64C3ABE425A808980058C854 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		64C3AC0225A832260058C854 /* Indicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Indicator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C3AC0425A832260058C854 /* IndicatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorApp.swift; sourceTree = "<group>"; };
+		64C3AC0625A832260058C854 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64C3AC0825A832290058C854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64C3AC0B25A832290058C854 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64C3AC0D25A832290058C854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64C3AC5E25A8327D0058C854 /* IndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorView.swift; sourceTree = "<group>"; };
 		64F0C3BA25A44BEA008BE9EA /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		64F0C3BE25A44FF6008BE9EA /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		64F0C3C125A4505F008BE9EA /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
@@ -396,6 +408,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		64C3ABFF25A832260058C854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64F0C3F725A5BC07008BE9EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -580,6 +599,7 @@
 				64F0C8E225A7EFFB008BE9EA /* Launch */,
 				64F0C90C25A7F337008BE9EA /* Set */,
 				64C3AA0825A7F80C0058C854 /* Clock */,
+				64C3AC0325A832260058C854 /* Indicator */,
 				6458AF1C25A445120063BFE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -611,6 +631,7 @@
 				64F0C8E125A7EFFB008BE9EA /* Launch.app */,
 				64F0C90B25A7F337008BE9EA /* Set.app */,
 				64C3AA0725A7F80C0058C854 /* Clock.app */,
+				64C3AC0225A832260058C854 /* Indicator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -690,6 +711,27 @@
 				64C3AAFE25A7F8990058C854 /* PositionInCircle.swift */,
 			);
 			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+		64C3AC0325A832260058C854 /* Indicator */ = {
+			isa = PBXGroup;
+			children = (
+				64C3AC0425A832260058C854 /* IndicatorApp.swift */,
+				64C3AC0625A832260058C854 /* ContentView.swift */,
+				64C3AC5E25A8327D0058C854 /* IndicatorView.swift */,
+				64C3AC0825A832290058C854 /* Assets.xcassets */,
+				64C3AC0D25A832290058C854 /* Info.plist */,
+				64C3AC0A25A832290058C854 /* Preview Content */,
+			);
+			path = Indicator;
+			sourceTree = "<group>";
+		};
+		64C3AC0A25A832290058C854 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64C3AC0B25A832290058C854 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		64F0C3B925A44BCF008BE9EA /* Models */ = {
@@ -1228,6 +1270,23 @@
 			productReference = 64C3AA0725A7F80C0058C854 /* Clock.app */;
 			productType = "com.apple.product-type.application";
 		};
+		64C3AC0125A832260058C854 /* Indicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C3AC0E25A832290058C854 /* Build configuration list for PBXNativeTarget "Indicator" */;
+			buildPhases = (
+				64C3ABFE25A832260058C854 /* Sources */,
+				64C3ABFF25A832260058C854 /* Frameworks */,
+				64C3AC0025A832260058C854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Indicator;
+			productName = Indicator;
+			productReference = 64C3AC0225A832260058C854 /* Indicator.app */;
+			productType = "com.apple.product-type.application";
+		};
 		64F0C3F925A5BC07008BE9EA /* Grid */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64F0C40625A5BC0A008BE9EA /* Build configuration list for PBXNativeTarget "Grid" */;
@@ -1617,6 +1676,9 @@
 					64C3AA0625A7F80C0058C854 = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					64C3AC0125A832260058C854 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					64F0C3F925A5BC07008BE9EA = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -1723,6 +1785,7 @@
 				64F0C8E025A7EFFB008BE9EA /* Launch */,
 				64F0C90A25A7F337008BE9EA /* Set */,
 				64C3AA0625A7F80C0058C854 /* Clock */,
+				64C3AC0125A832260058C854 /* Indicator */,
 			);
 		};
 /* End PBXProject section */
@@ -1745,6 +1808,15 @@
 				64C3AA1125A7F80D0058C854 /* Preview Assets.xcassets in Resources */,
 				64C3ABC925A807690058C854 /* Localizable.strings in Resources */,
 				64C3AA0E25A7F80D0058C854 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C3AC0025A832260058C854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C3AC0C25A832290058C854 /* Preview Assets.xcassets in Resources */,
+				64C3AC0925A832290058C854 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1989,6 +2061,16 @@
 				64C3AA4925A7F8320058C854 /* ClockDialView.swift in Sources */,
 				64C3AAB225A7F8720058C854 /* Extension.swift in Sources */,
 				64C3AAFF25A7F8990058C854 /* PositionInCircle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C3ABFE25A832260058C854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C3AC0725A832260058C854 /* ContentView.swift in Sources */,
+				64C3AC5F25A8327D0058C854 /* IndicatorView.swift in Sources */,
+				64C3AC0525A832260058C854 /* IndicatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2442,6 +2524,50 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Clock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64C3AC0F25A832290058C854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Indicator/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Indicator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Indicator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64C3AC1025A832290058C854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Indicator/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Indicator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Indicator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3442,6 +3568,15 @@
 			buildConfigurations = (
 				64C3AA1325A7F80D0058C854 /* Debug */,
 				64C3AA1425A7F80D0058C854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C3AC0E25A832290058C854 /* Build configuration list for PBXNativeTarget "Indicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C3AC0F25A832290058C854 /* Debug */,
+				64C3AC1025A832290058C854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
