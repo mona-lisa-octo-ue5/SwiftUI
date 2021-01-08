@@ -11,6 +11,19 @@
 		6458AF2125A445120063BFE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6458AF2025A445120063BFE0 /* ContentView.swift */; };
 		6458AF2325A445140063BFE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6458AF2225A445140063BFE0 /* Assets.xcassets */; };
 		6458AF2625A445140063BFE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6458AF2525A445140063BFE0 /* Preview Assets.xcassets */; };
+		64C3AA0A25A7F80C0058C854 /* ClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3AA0925A7F80C0058C854 /* ClockApp.swift */; };
+		64C3AA0C25A7F80C0058C854 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3AA0B25A7F80C0058C854 /* ContentView.swift */; };
+		64C3AA0E25A7F80D0058C854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C3AA0D25A7F80D0058C854 /* Assets.xcassets */; };
+		64C3AA1125A7F80D0058C854 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C3AA1025A7F80D0058C854 /* Preview Assets.xcassets */; };
+		64C3AA2F25A7F8230058C854 /* HourTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3AA2E25A7F8230058C854 /* HourTexts.swift */; };
+		64C3AA4925A7F8320058C854 /* ClockDialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3AA4825A7F8320058C854 /* ClockDialView.swift */; };
+		64C3AA6325A7F83D0058C854 /* TimeZoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3AA6225A7F83D0058C854 /* TimeZoneView.swift */; };
+		64C3AA7D25A7F8480058C854 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3AA7C25A7F8480058C854 /* ClockView.swift */; };
+		64C3AA9725A7F8550058C854 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3AA9625A7F8550058C854 /* TopView.swift */; };
+		64C3AAB225A7F8720058C854 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3AAB125A7F8720058C854 /* Extension.swift */; };
+		64C3AAE425A7F87F0058C854 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3AAE325A7F87F0058C854 /* Common.swift */; };
+		64C3AAFF25A7F8990058C854 /* PositionInCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3AAFE25A7F8990058C854 /* PositionInCircle.swift */; };
+		64C3ABC925A807690058C854 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64C3ABCB25A807690058C854 /* Localizable.strings */; };
 		64F0C3BB25A44BEA008BE9EA /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3BA25A44BEA008BE9EA /* Color+Codable.swift */; };
 		64F0C3BF25A44FF6008BE9EA /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3BE25A44FF6008BE9EA /* DailyScrum.swift */; };
 		64F0C3C225A4505F008BE9EA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3C125A4505F008BE9EA /* History.swift */; };
@@ -163,6 +176,22 @@
 		6458AF2225A445140063BFE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6458AF2525A445140063BFE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6458AF2725A445140063BFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64C3AA0725A7F80C0058C854 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C3AA0925A7F80C0058C854 /* ClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockApp.swift; sourceTree = "<group>"; };
+		64C3AA0B25A7F80C0058C854 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64C3AA0D25A7F80D0058C854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64C3AA1025A7F80D0058C854 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64C3AA1225A7F80D0058C854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64C3AA2E25A7F8230058C854 /* HourTexts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourTexts.swift; sourceTree = "<group>"; };
+		64C3AA4825A7F8320058C854 /* ClockDialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockDialView.swift; sourceTree = "<group>"; };
+		64C3AA6225A7F83D0058C854 /* TimeZoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZoneView.swift; sourceTree = "<group>"; };
+		64C3AA7C25A7F8480058C854 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		64C3AA9625A7F8550058C854 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		64C3AAB125A7F8720058C854 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		64C3AAE325A7F87F0058C854 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		64C3AAFE25A7F8990058C854 /* PositionInCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionInCircle.swift; sourceTree = "<group>"; };
+		64C3ABCA25A807690058C854 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		64C3ABE425A808980058C854 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		64F0C3BA25A44BEA008BE9EA /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		64F0C3BE25A44FF6008BE9EA /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		64F0C3C125A4505F008BE9EA /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
@@ -360,6 +389,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		64C3AA0425A7F80C0058C854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64F0C3F725A5BC07008BE9EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -543,6 +579,7 @@
 				64F0C87425A71233008BE9EA /* Password */,
 				64F0C8E225A7EFFB008BE9EA /* Launch */,
 				64F0C90C25A7F337008BE9EA /* Set */,
+				64C3AA0825A7F80C0058C854 /* Clock */,
 				6458AF1C25A445120063BFE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -573,6 +610,7 @@
 				64F0C87325A71233008BE9EA /* Password.app */,
 				64F0C8E125A7EFFB008BE9EA /* Launch.app */,
 				64F0C90B25A7F337008BE9EA /* Set.app */,
+				64C3AA0725A7F80C0058C854 /* Clock.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -607,6 +645,51 @@
 				6458AF2525A445140063BFE0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64C3AA0825A7F80C0058C854 /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				64C3AA0925A7F80C0058C854 /* ClockApp.swift */,
+				64C3AA0B25A7F80C0058C854 /* ContentView.swift */,
+				64C3AA2E25A7F8230058C854 /* HourTexts.swift */,
+				64C3AA4825A7F8320058C854 /* ClockDialView.swift */,
+				64C3AA6225A7F83D0058C854 /* TimeZoneView.swift */,
+				64C3AA7C25A7F8480058C854 /* ClockView.swift */,
+				64C3AA9625A7F8550058C854 /* TopView.swift */,
+				64C3ABCB25A807690058C854 /* Localizable.strings */,
+				64C3AAFD25A7F88C0058C854 /* ViewModifiers */,
+				64C3AAB025A7F8670058C854 /* Tools */,
+				64C3AA0D25A7F80D0058C854 /* Assets.xcassets */,
+				64C3AA1225A7F80D0058C854 /* Info.plist */,
+				64C3AA0F25A7F80D0058C854 /* Preview Content */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		64C3AA0F25A7F80D0058C854 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64C3AA1025A7F80D0058C854 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64C3AAB025A7F8670058C854 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				64C3AAB125A7F8720058C854 /* Extension.swift */,
+				64C3AAE325A7F87F0058C854 /* Common.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		64C3AAFD25A7F88C0058C854 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				64C3AAFE25A7F8990058C854 /* PositionInCircle.swift */,
+			);
+			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
 		64F0C3B925A44BCF008BE9EA /* Models */ = {
@@ -1128,6 +1211,23 @@
 			productReference = 6458AF1B25A445120063BFE0 /* SwiftUIPro.app */;
 			productType = "com.apple.product-type.application";
 		};
+		64C3AA0625A7F80C0058C854 /* Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C3AA1525A7F80D0058C854 /* Build configuration list for PBXNativeTarget "Clock" */;
+			buildPhases = (
+				64C3AA0325A7F80C0058C854 /* Sources */,
+				64C3AA0425A7F80C0058C854 /* Frameworks */,
+				64C3AA0525A7F80C0058C854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clock;
+			productName = Clock;
+			productReference = 64C3AA0725A7F80C0058C854 /* Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
 		64F0C3F925A5BC07008BE9EA /* Grid */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64F0C40625A5BC0A008BE9EA /* Build configuration list for PBXNativeTarget "Grid" */;
@@ -1514,6 +1614,9 @@
 					6458AF1A25A445120063BFE0 = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					64C3AA0625A7F80C0058C854 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					64F0C3F925A5BC07008BE9EA = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -1589,6 +1692,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 6458AF1225A445120063BFE0;
 			productRefGroup = 6458AF1C25A445120063BFE0 /* Products */;
@@ -1618,6 +1722,7 @@
 				64F0C87225A71233008BE9EA /* Password */,
 				64F0C8E025A7EFFB008BE9EA /* Launch */,
 				64F0C90A25A7F337008BE9EA /* Set */,
+				64C3AA0625A7F80C0058C854 /* Clock */,
 			);
 		};
 /* End PBXProject section */
@@ -1630,6 +1735,16 @@
 				64F0C3F425A5BB7E008BE9EA /* ding.wav in Resources */,
 				6458AF2625A445140063BFE0 /* Preview Assets.xcassets in Resources */,
 				6458AF2325A445140063BFE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C3AA0525A7F80C0058C854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C3AA1125A7F80D0058C854 /* Preview Assets.xcassets in Resources */,
+				64C3ABC925A807690058C854 /* Localizable.strings in Resources */,
+				64C3AA0E25A7F80D0058C854 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1857,6 +1972,23 @@
 				64F0C3CB25A45A37008BE9EA /* ScrumData.swift in Sources */,
 				64F0C3D425A4683D008BE9EA /* CardView.swift in Sources */,
 				64F0C3C225A4505F008BE9EA /* History.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C3AA0325A7F80C0058C854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C3AA9725A7F8550058C854 /* TopView.swift in Sources */,
+				64C3AA0C25A7F80C0058C854 /* ContentView.swift in Sources */,
+				64C3AA7D25A7F8480058C854 /* ClockView.swift in Sources */,
+				64C3AA0A25A7F80C0058C854 /* ClockApp.swift in Sources */,
+				64C3AAE425A7F87F0058C854 /* Common.swift in Sources */,
+				64C3AA2F25A7F8230058C854 /* HourTexts.swift in Sources */,
+				64C3AA6325A7F83D0058C854 /* TimeZoneView.swift in Sources */,
+				64C3AA4925A7F8320058C854 /* ClockDialView.swift in Sources */,
+				64C3AAB225A7F8720058C854 /* Extension.swift in Sources */,
+				64C3AAFF25A7F8990058C854 /* PositionInCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2097,11 +2229,24 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		64C3ABCB25A807690058C854 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64C3ABCA25A807690058C854 /* en */,
+				64C3ABE425A808980058C854 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		6458AF2825A445140063BFE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -2163,6 +2308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -2252,6 +2398,50 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.SwiftUIPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64C3AA1325A7F80D0058C854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Clock/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Clock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Clock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64C3AA1425A7F80D0058C854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Clock/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Clock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Clock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3243,6 +3433,15 @@
 			buildConfigurations = (
 				6458AF2B25A445140063BFE0 /* Debug */,
 				6458AF2C25A445140063BFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C3AA1525A7F80D0058C854 /* Build configuration list for PBXNativeTarget "Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C3AA1325A7F80D0058C854 /* Debug */,
+				64C3AA1425A7F80D0058C854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
