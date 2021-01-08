@@ -33,6 +33,16 @@
 		64C3AC8325A834510058C854 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3AC8225A834510058C854 /* ContentView.swift */; };
 		64C3AC8525A834530058C854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C3AC8425A834530058C854 /* Assets.xcassets */; };
 		64C3AC8825A834530058C854 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C3AC8725A834530058C854 /* Preview Assets.xcassets */; };
+		64C3ACAF25A8368C0058C854 /* NotificationProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3ACAE25A8368C0058C854 /* NotificationProApp.swift */; };
+		64C3ACB125A8368C0058C854 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3ACB025A8368C0058C854 /* ContentView.swift */; };
+		64C3ACB325A8368F0058C854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C3ACB225A8368F0058C854 /* Assets.xcassets */; };
+		64C3ACB625A8368F0058C854 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C3ACB525A8368F0058C854 /* Preview Assets.xcassets */; };
+		64C3ACD725A8369D0058C854 /* TimeIntervalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3ACD625A8369D0058C854 /* TimeIntervalView.swift */; };
+		64C3ACF425A836A80058C854 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3ACF325A836A80058C854 /* CalendarView.swift */; };
+		64C3AD1825A83A200058C854 /* AnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3AD1725A83A200058C854 /* AnimationApp.swift */; };
+		64C3AD1A25A83A200058C854 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C3AD1925A83A200058C854 /* ContentView.swift */; };
+		64C3AD1C25A83A230058C854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C3AD1B25A83A230058C854 /* Assets.xcassets */; };
+		64C3AD1F25A83A230058C854 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C3AD1E25A83A230058C854 /* Preview Assets.xcassets */; };
 		64F0C3BB25A44BEA008BE9EA /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3BA25A44BEA008BE9EA /* Color+Codable.swift */; };
 		64F0C3BF25A44FF6008BE9EA /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3BE25A44FF6008BE9EA /* DailyScrum.swift */; };
 		64F0C3C225A4505F008BE9EA /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F0C3C125A4505F008BE9EA /* History.swift */; };
@@ -214,6 +224,20 @@
 		64C3AC8425A834530058C854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64C3AC8725A834530058C854 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		64C3AC8925A834530058C854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64C3ACAC25A8368C0058C854 /* NotificationPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C3ACAE25A8368C0058C854 /* NotificationProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationProApp.swift; sourceTree = "<group>"; };
+		64C3ACB025A8368C0058C854 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64C3ACB225A8368F0058C854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64C3ACB525A8368F0058C854 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64C3ACB725A8368F0058C854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64C3ACD625A8369D0058C854 /* TimeIntervalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalView.swift; sourceTree = "<group>"; };
+		64C3ACF325A836A80058C854 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		64C3AD1525A83A200058C854 /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C3AD1725A83A200058C854 /* AnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationApp.swift; sourceTree = "<group>"; };
+		64C3AD1925A83A200058C854 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64C3AD1B25A83A230058C854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64C3AD1E25A83A230058C854 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		64C3AD2025A83A230058C854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64F0C3BA25A44BEA008BE9EA /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
 		64F0C3BE25A44FF6008BE9EA /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		64F0C3C125A4505F008BE9EA /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
@@ -432,6 +456,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		64C3ACA925A8368C0058C854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C3AD1225A83A200058C854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64F0C3F725A5BC07008BE9EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -618,6 +656,8 @@
 				64C3AA0825A7F80C0058C854 /* Clock */,
 				64C3AC0325A832260058C854 /* Indicator */,
 				64C3AC7F25A834510058C854 /* Notification */,
+				64C3ACAD25A8368C0058C854 /* NotificationPro */,
+				64C3AD1625A83A200058C854 /* Animation */,
 				6458AF1C25A445120063BFE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -651,6 +691,8 @@
 				64C3AA0725A7F80C0058C854 /* Clock.app */,
 				64C3AC0225A832260058C854 /* Indicator.app */,
 				64C3AC7E25A834510058C854 /* Notification.app */,
+				64C3ACAC25A8368C0058C854 /* NotificationPro.app */,
+				64C3AD1525A83A200058C854 /* Animation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -769,6 +811,48 @@
 			isa = PBXGroup;
 			children = (
 				64C3AC8725A834530058C854 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64C3ACAD25A8368C0058C854 /* NotificationPro */ = {
+			isa = PBXGroup;
+			children = (
+				64C3ACAE25A8368C0058C854 /* NotificationProApp.swift */,
+				64C3ACB025A8368C0058C854 /* ContentView.swift */,
+				64C3ACD625A8369D0058C854 /* TimeIntervalView.swift */,
+				64C3ACF325A836A80058C854 /* CalendarView.swift */,
+				64C3ACB225A8368F0058C854 /* Assets.xcassets */,
+				64C3ACB725A8368F0058C854 /* Info.plist */,
+				64C3ACB425A8368F0058C854 /* Preview Content */,
+			);
+			path = NotificationPro;
+			sourceTree = "<group>";
+		};
+		64C3ACB425A8368F0058C854 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64C3ACB525A8368F0058C854 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		64C3AD1625A83A200058C854 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				64C3AD1725A83A200058C854 /* AnimationApp.swift */,
+				64C3AD1925A83A200058C854 /* ContentView.swift */,
+				64C3AD1B25A83A230058C854 /* Assets.xcassets */,
+				64C3AD2025A83A230058C854 /* Info.plist */,
+				64C3AD1D25A83A230058C854 /* Preview Content */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		64C3AD1D25A83A230058C854 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				64C3AD1E25A83A230058C854 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -1343,6 +1427,40 @@
 			productReference = 64C3AC7E25A834510058C854 /* Notification.app */;
 			productType = "com.apple.product-type.application";
 		};
+		64C3ACAB25A8368C0058C854 /* NotificationPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C3ACB825A8368F0058C854 /* Build configuration list for PBXNativeTarget "NotificationPro" */;
+			buildPhases = (
+				64C3ACA825A8368C0058C854 /* Sources */,
+				64C3ACA925A8368C0058C854 /* Frameworks */,
+				64C3ACAA25A8368C0058C854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationPro;
+			productName = NotificationPro;
+			productReference = 64C3ACAC25A8368C0058C854 /* NotificationPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64C3AD1425A83A200058C854 /* Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64C3AD2125A83A230058C854 /* Build configuration list for PBXNativeTarget "Animation" */;
+			buildPhases = (
+				64C3AD1125A83A200058C854 /* Sources */,
+				64C3AD1225A83A200058C854 /* Frameworks */,
+				64C3AD1325A83A200058C854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Animation;
+			productName = Animation;
+			productReference = 64C3AD1525A83A200058C854 /* Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
 		64F0C3F925A5BC07008BE9EA /* Grid */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64F0C40625A5BC0A008BE9EA /* Build configuration list for PBXNativeTarget "Grid" */;
@@ -1738,6 +1856,12 @@
 					64C3AC7D25A834510058C854 = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					64C3ACAB25A8368C0058C854 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					64C3AD1425A83A200058C854 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					64F0C3F925A5BC07008BE9EA = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -1846,6 +1970,8 @@
 				64C3AA0625A7F80C0058C854 /* Clock */,
 				64C3AC0125A832260058C854 /* Indicator */,
 				64C3AC7D25A834510058C854 /* Notification */,
+				64C3ACAB25A8368C0058C854 /* NotificationPro */,
+				64C3AD1425A83A200058C854 /* Animation */,
 			);
 		};
 /* End PBXProject section */
@@ -1886,6 +2012,24 @@
 			files = (
 				64C3AC8825A834530058C854 /* Preview Assets.xcassets in Resources */,
 				64C3AC8525A834530058C854 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C3ACAA25A8368C0058C854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C3ACB625A8368F0058C854 /* Preview Assets.xcassets in Resources */,
+				64C3ACB325A8368F0058C854 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C3AD1325A83A200058C854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C3AD1F25A83A230058C854 /* Preview Assets.xcassets in Resources */,
+				64C3AD1C25A83A230058C854 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2149,6 +2293,26 @@
 			files = (
 				64C3AC8325A834510058C854 /* ContentView.swift in Sources */,
 				64C3AC8125A834510058C854 /* NotificationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C3ACA825A8368C0058C854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C3ACB125A8368C0058C854 /* ContentView.swift in Sources */,
+				64C3ACD725A8369D0058C854 /* TimeIntervalView.swift in Sources */,
+				64C3ACF425A836A80058C854 /* CalendarView.swift in Sources */,
+				64C3ACAF25A8368C0058C854 /* NotificationProApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64C3AD1125A83A200058C854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64C3AD1A25A83A200058C854 /* ContentView.swift in Sources */,
+				64C3AD1825A83A200058C854 /* AnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2690,6 +2854,94 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Notification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64C3ACB925A8368F0058C854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NotificationPro/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NotificationPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.NotificationPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64C3ACBA25A8368F0058C854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"NotificationPro/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = NotificationPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.NotificationPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		64C3AD2225A83A230058C854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Animation/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Animation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Animation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64C3AD2325A83A230058C854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Animation/Preview Content\"";
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Animation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yulong.Animation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -3708,6 +3960,24 @@
 			buildConfigurations = (
 				64C3AC8B25A834530058C854 /* Debug */,
 				64C3AC8C25A834530058C854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C3ACB825A8368F0058C854 /* Build configuration list for PBXNativeTarget "NotificationPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C3ACB925A8368F0058C854 /* Debug */,
+				64C3ACBA25A8368F0058C854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64C3AD2125A83A230058C854 /* Build configuration list for PBXNativeTarget "Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64C3AD2225A83A230058C854 /* Debug */,
+				64C3AD2325A83A230058C854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
